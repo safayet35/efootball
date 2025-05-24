@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: "font_bold";
+	src: url("../public/fonts/eFootballSans-Bold.woff") format("woff");
+}
+@font-face {
+	font-family: "font_sans";
+	src: url("../public/fonts/eFootballSans-Regular.woff") format("woff");
+}
+@font-face {
+	font-family: "font_stencil";
+	src: url("../public/fonts/eFootballStencil-Regular.woff") format("woff");
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
