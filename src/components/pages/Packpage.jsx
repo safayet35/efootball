@@ -76,9 +76,8 @@ const Packpage = () => {
 			{isLandscape ? (
 				<div
 					onDoubleClick={() => enterFullscreen()}
-					className={`relative bg-no-repeat bg-cover w-full h-screen flex flex-col
-					justify-between
-				bg-[url({backgroundImage})]`}
+					className="relative bg-no-repeat bg-cover w-full h-screen flex flex-col justify-between"
+  style={{ backgroundImage: `url(${backgroundImage})` }}
 				>
 					{isCoinButtonClicked ? (
 						<SpinUi
