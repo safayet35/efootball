@@ -4,6 +4,7 @@ import Backbutton from "../ui/Backbutton.jsx";
 import Packsinglebox from "../ui/Packsinglebox.jsx";
 import boxData from "../../api/boxData.json";
 import SpinUi from "../ui/SpinUi.jsx";
+import backgroundImage from "../../public/assets/background.jpeg"
 const Packpage = () => {
 	const [isLandscape, setIsLandscape] = useState(
 		window.innerWidth > window.innerHeight
@@ -77,7 +78,7 @@ const Packpage = () => {
 					onDoubleClick={() => enterFullscreen()}
 					className="relative bg-no-repeat bg-cover w-full h-screen flex flex-col
 					justify-between
-				bg-[url(../../public/assets/background.jpeg)]"
+				bg-[url({backgroundImage})]"
 				>
 					{isCoinButtonClicked ? (
 						<SpinUi
