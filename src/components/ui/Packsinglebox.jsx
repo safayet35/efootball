@@ -1,9 +1,9 @@
 import Coinbutton from "../ui/Coinbutton.jsx";
-
+import clickSound from "../../../public/audio/cointouchsound.mp3"
 const Packsinglebox = ({ data, setCoinButtonClicked, setCoinValue }) => {
 	const { name, type, duration, background, players } = data;
 
-	const touchSound = new Audio("../../../public/audio/cointouchsound.mp3");
+	const touchSound = new Audio(clickSound);
 
 	const handleCoinButton = () => {
 		setCoinValue(100);
