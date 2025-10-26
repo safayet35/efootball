@@ -1,5 +1,6 @@
 import { FaUser } from "react-icons/fa6";
 import coinIcon from "../../../public/assets/efootball-coins-removebg-preview.png";
+
 const Coinbutton = ({ coin, onClick }) => {
     return (
         <button
