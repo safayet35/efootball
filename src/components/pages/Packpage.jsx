@@ -4,7 +4,7 @@ import Backbutton from "../ui/Backbutton.jsx";
 import Packsinglebox from "../ui/Packsinglebox.jsx";
 import boxData from "../../api/boxData.json";
 import SpinUi from "../ui/SpinUi.jsx";
-import backgroundImage from "../../public/assets/background.jpeg"
+import backgroundImage from "../../../public/assets/background.jpeg"
 const Packpage = () => {
 	const [isLandscape, setIsLandscape] = useState(
 		window.innerWidth > window.innerHeight
